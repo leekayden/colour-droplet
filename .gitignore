@@ -1,0 +1,46 @@
+# Java compiled class files
+*.class
+out/
+bin/
+build/
+dist/
+target/
+
+# Package files (ignore generated JARs, keep lib/ dependencies)
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+!lib/*.jar
+
+# Log and crash files
+*.log
+hs_err_pid*
+replay_pid*
+
+# IDE and Editor configurations
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+.nb-gradle/
+.history/
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
